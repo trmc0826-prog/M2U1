@@ -5,4 +5,9 @@ log.Add("Orbit");
 Console.WriteLine(log.Count);
 log.Clear();
 Console.WriteLine(log.Count);
-// TODO: Legg til de resterende testene.
+
+log.Add("");
+Console.WriteLine(log.Count);
+
+FlightLog secondLog = new FlightLog();
+Console.WriteLine(secondLog.Count);

@@ -6,18 +6,17 @@ public class FlightLog
     {
         get
         {
-            // TODO: Returner antallet i listen.
-            return 0;
+            return _entries.Count;
         }
     }
 
     public void Add(string entry)
     {
-        // TODO: Legg til i den private listen.
+        _entries.Add(entry);
     }
 
     public void Clear()
     {
-        // TODO: Tøm listen.
+        _entries.Clear();
     }
 }

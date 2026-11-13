@@ -6,6 +6,6 @@ public class TextRecorder
     public bool Contains(string item) { return _items.Contains(item); }
     public void Clear()
     {
-        // TODO: Tøm denne beholderen.
+        _items.Clear();
     }
 }
